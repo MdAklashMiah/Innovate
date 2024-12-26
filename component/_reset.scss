@@ -1,0 +1,22 @@
+$primary: #160c6d80;
+$white: #FFFFFF;
+
+@mixin button($theme: #1BBF00) {
+  background: $theme;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 28px;
+  border: 2px solid transparent;
+  border-radius: 100px;
+  color: $white;
+  transition: .4s;
+  
+}
+
+.container{
+    max-width: 1170px;
+}
+
+body{
+    font-family: "Open Sans", serif;
+}

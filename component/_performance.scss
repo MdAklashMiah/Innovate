@@ -1,0 +1,41 @@
+#performance{
+    padding: 282px 0;
+    background: #F9F9FB;
+    position: relative;
+
+    .bgShape{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .perform__state{
+        text-align: center;
+        position: relative;
+        border-right: 4px solid rgba(79, 88, 95, 0.20);
+
+        h2{
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 68px;
+            color: #1BBF00;
+            margin-bottom: 24px;
+        }
+
+        h4{
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 40px;
+            color: #141135;
+            text-wrap: nowrap;
+            margin-right: 30px;
+        }
+
+    }
+
+    #no_line{
+        border: none;
+    }
+
+
+}
