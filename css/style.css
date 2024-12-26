@@ -205,10 +205,84 @@ header nav .nav__right button {
   padding: 100px 0;
   background: #F6F5FF;
 }
+#whatDo .whatDo_title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #141135;
+  margin-bottom: 20px;
+}
+#whatDo .whatDo_title p {
+  font-family: "Paprika", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #726E9E;
+  margin-bottom: 40px;
+}
+#whatDo .whatDo_title button {
+  background: #1BBF00;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 28px;
+  border: 2px solid transparent;
+  border-radius: 100px;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
 #whatDo .whatDo_card {
   text-align: center;
-  padding: 48px 40px;
+  padding: 48px 30px;
+  background: #FFFFFF;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  transition: 0.8s;
 }
-#whatDo #second_row {
-  margin-top: 30px;
+#whatDo .whatDo_card h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #141135;
+  margin-top: 32px;
+}
+#whatDo .whatDo_card p {
+  font-family: "Paprika", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #726E9E;
+  margin: 20px;
+}
+#whatDo .whatDo_card a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #141135;
+  position: relative;
+}
+#whatDo .whatDo_card a::after {
+  content: "";
+  width: 27px;
+  height: 40px;
+  background: rgba(25, 191, 0, 0.3);
+  border-radius: 0 100px 100px 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -10px;
+}
+#whatDo .whatDo_card:hover {
+  background: #6B62C5;
+}
+#whatDo .whatDo_card:hover h3 {
+  color: #FAFAFE;
+}
+#whatDo .whatDo_card:hover p {
+  color: #E6E5F3;
+}
+#whatDo .whatDo_card:hover a {
+  color: #F4F4F5;
+}
+#whatDo .whatDo_card:hover a::after {
+  background: rgba(255, 255, 255, 0.3);
 }/*# sourceMappingURL=style.css.map */
