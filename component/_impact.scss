@@ -1,0 +1,61 @@
+#impact{
+    background: #FFFFFF;
+    padding: 100px;
+    position: relative;
+    .impact_title{
+        text-align: center;
+        margin-bottom: 75px;
+        h2{
+            font-size: 48px;
+            font-weight: 700;
+            color: #141135;
+            margin-bottom: 22px;
+        }
+        p{
+            width: 558px;
+            font-family: "Paprika", serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            color: #726E9E;
+            margin: 0 auto;
+        }
+    }
+
+    .left_item{
+        gap: 32px;
+        &:first-child{
+            margin-bottom: 40px;
+        }
+
+        .item_text{
+            h3{
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 36px;
+                letter-spacing: 0.5px;
+                color: #141135;
+                margin-bottom: 20px;
+            }
+
+            p{
+                font-family: "Paprika", serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+                color: #726E9E;
+            }
+        }
+    }
+
+    .impect_right{
+        position: relative;
+        z-index: 1;
+    }
+
+    .impactShape{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
