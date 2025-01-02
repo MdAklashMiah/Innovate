@@ -1,0 +1,1437 @@
+@media (min-width: 320px) and (max-width:575px) {
+    
+    /*Navbar Start Here...*/
+    .navbar-brand img{
+        width: 80px;
+    }
+
+    .menu_bar {
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+    }
+
+    header nav .nav_list ul {
+        gap: 15px;
+        background: darkslateblue;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    header nav .nav__right{
+        text-align: center;
+    }
+
+    header nav .nav__right button {
+        font-size: 14px;
+        padding: 8px 16px;
+        margin-top: 15px;
+    }
+
+    /*Navbar End Here...*/
+
+    /*Banner Start Here...*/
+    #banner {
+        padding: 120px 0 20px 0;
+    }
+
+    #banner .banner__item h1 {
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 10px;
+    }
+
+    #banner .banner__item p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    #banner .banner__item .banner__btn button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    #banner .banner__item .banner__btn button:last-child {
+        margin-left: 5px;
+    }
+
+    #banner .shape_one {
+        display: none;
+    }
+
+    #banner .shape_two {
+        display: none;
+    }
+    /*Banner End Here...*/
+
+    /*Performance Start Here...*/
+    #performance {
+        padding: 40px 0;
+    }
+
+    #performance .bgShape {
+        display: none;
+    }
+
+    #performance .perform__state h2 {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+
+    #performance .perform__state h4 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-right: 0;
+    }
+
+    #performance .no_line {
+        border: none;
+    }
+
+    /*Performance End Here...*/
+
+    /*Choose Start Here...*/
+    #chooseUs {
+        padding: 40px 0;
+    }
+
+    #chooseUs .shapeChoose {
+        display: none;
+    }
+
+    #chooseUs .choose_left ul li {
+        gap: 15px;
+        padding: 0 ;
+        margin-bottom: 10px;
+    }
+
+    #chooseUs .choose_left ul li:hover {
+        padding: 10px 0px;
+    }
+
+    #chooseUs .choose_left ul li img{
+        width: 30px;
+    }
+
+    #chooseUs .choose_left ul li p {
+        width: auto;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #chooseUs .choose_right {
+        padding-left: 0px;
+        padding: 0 20px;
+    }
+
+    #chooseUs .choose_right h2 {
+        font-size: 36px;
+    }
+
+    #chooseUs .choose_right p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+
+    #chooseUs .choose_right button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    /*Choose End Here...*/
+
+    /*WhatDo Start Here...*/
+
+    #whatDo {
+        padding: 30px 0;
+    }
+
+    #whatDo .whatDo_title{
+        padding: 10px;
+    }
+
+    #whatDo .whatDo_title h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    #whatDo .whatDo_title p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+
+    #whatDo .whatDo_title button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    #whatDo .whatDo_card {
+        padding: 10px 10px;
+        margin-bottom: 30px;
+    }
+
+    #whatDo .whatDo_card img{
+        width: 40px;
+    }
+
+    #whatDo .whatDo_card h3 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    #whatDo .whatDo_card p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 10px;
+    }
+
+    #whatDo .whatDo_card a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #whatDo .whatDo_card a::after {
+        width: 24px;
+        height: 28px;;
+        right: -6px;
+    }
+    /*WhatDo End Here...*/
+
+    /*Impact Start Here...*/
+    #impact {
+        background: #FFFFFF;
+        padding: 20px 0;
+        position: relative;
+    }
+
+    #impact .impact_title {
+        margin-bottom: 40px;
+    }
+
+    #impact .impact_title h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    #impact .impact_title p {
+        width: auto;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: justify;
+        padding: 0 20px;
+    }
+
+    #impact .left_item {
+        gap: 16px;
+    }
+
+    #impact .left_item img{
+        width: 50px;
+    }
+
+    #impact .left_item .item_text h3 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+
+    #impact .left_item .item_text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #impact .left_item:first-child {
+        margin-bottom: 20px;
+    }
+
+    #impact .impect_right img{
+        width: 100%;
+    }
+
+    #impact .impactShape {
+        display: none;
+    }
+
+    /*Impact End Here...*/
+
+    /*Plan Start Here...*/
+    #plan {
+        padding: 21px 30px;
+    }
+
+    #plan .plan_title {
+        margin-bottom: 30px;
+    }
+
+    #plan .plan_title h2 {
+        font-size: 36px;
+    }
+
+    #plan .plan_card {
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+
+    #plan .plan_card h4 {
+        font-size: 24px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    #plan .plan_card img{
+        width: 100%;
+    }
+
+    #plan .plan_card h3 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #plan .plan_card p {
+        font-size: 14px;
+    }
+    /*Plan End Here...*/
+
+    /*About Start Here...*/
+    #about {
+        padding: 20px 0;
+    }
+
+    #about .about_title h2 {
+        font-size: 36px;
+    }
+
+    #about .slide_part {
+        padding: 40px 20px 20px;
+        margin-top: 40px;
+    }
+
+    #about .slide_part .slide_text p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 20px auto 0;
+    }
+
+    #about .slide_part .slide_text h4 {
+        font-size: 22px;
+        line-height: 20px;
+        margin-top: 16px;
+    }
+
+    #about .slide_part .slide_image {
+        top: -40px;
+    }
+
+    #about .slide_part .slideImage{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    #about #carouselExample .button .prev_btn {
+        width: 32px;
+        height: 32px;
+        top: 60%;
+        transform: translateY(-50%);
+        left: -16px;
+    }
+
+    #about #carouselExample .button .prev_btn span {
+        font-size: 22px;
+        margin-left: 26px;
+    }
+
+    #about #carouselExample .button .next_btn {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        top: 60%;
+        transform: translateY(-50%);
+        right: -16px;
+    }
+
+    #about #carouselExample .button .next_btn span {
+        font-size: 22px;
+        margin-right: 26px;
+    }
+    /*About End Here...*/
+
+    /*Like Start Here...*/
+    #like {
+        padding: 20px 20px;
+    }
+
+    #like .like_title h2 {
+        font-size: 36px;
+        line-height: 20px;
+    }
+
+    #like .like_imageCard {
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    #like .like_text {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    #like .like_text .text_small h4 {
+        font-size: 14px;
+        line-height: 22px;
+        margin-right: 10px;
+    }
+
+    #like .like_text .text_small h5 span {
+        margin-right: 0;
+    }
+
+    #like .like_text .text_small h5 {
+        font-size: 14px;
+        line-height: 25px;
+        margin-right: 10px;
+    }
+
+    #like .like_text .text_small h6 {
+        font-size: 14px;
+    }
+
+    #like .like_text .text_small h6 span {
+        margin-right: 0;
+    }
+
+    #like .like_text h3 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    #like .like_text a {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    #like .like_text a::after {
+        width: 24px;
+        height: 28px;
+        right: -8px;
+    }
+
+    #like .likeShape {
+        display: none;
+    }
+    /*Like End Here...*/
+
+    /*Footer Start Here...*/
+    footer {
+        padding: 20px 20px;
+    }
+
+    footer .footer_top {
+        margin-bottom: 10px;
+    }
+
+    footer .footer_top .footer_logo img{
+        width: 80px;
+    }
+
+    footer .footer_top .footer_title p {
+        font-size: 14px;
+        line-height: 150%;
+        margin-top: 15px;
+    }
+
+    footer .footer_top .footer_item h3 {
+        font-size: 18px;
+        line-height: 80%;
+        margin-top: 20px;
+    }
+
+    footer .footer_top .footer_item ul {
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    footer .footer_top .footer_item ul li a {
+        font-size: 14px;
+    }
+
+    footer .footer_bottom p {
+        font-size: 14px;
+    }
+
+    footer .footer_bottom p span {
+        margin-right: 20px;
+    }
+    /*Footer End Here...*/
+
+}
+
+
+
+
+@media (min-width: 576px) and (max-width:767px) {
+    
+    /*Navbar Start Here...*/
+    .navbar-brand img{
+        width: 80px;
+    }
+
+    .menu_bar {
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+    }
+
+    header nav .nav_list ul {
+        gap: 15px;
+        background: darkslateblue;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    header nav .nav__right{
+        text-align: center;
+    }
+
+    header nav .nav__right button {
+        font-size: 14px;
+        padding: 8px 16px;
+        margin-top: 15px;
+    }
+
+    /*Navbar End Here...*/
+
+    /*Banner Start Here...*/
+    #banner {
+        padding: 140px 0 40px 0;
+    }
+
+    #banner .banner__item h1 {
+        font-size: 38px;
+        line-height: 48px;
+        margin-bottom: 10px;
+    }
+
+    #banner .banner__item p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    #banner .banner__item .banner__btn button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    #banner .banner__item .banner__btn button:last-child {
+        margin-left: 5px;
+    }
+
+    #banner .shape_one {
+        display: none;
+    }
+
+    #banner .shape_two {
+        display: none;
+    }
+    /*Banner End Here...*/
+
+    /*Performance Start Here...*/
+    #performance {
+        padding: 40px 0;
+    }
+
+    #performance .bgShape {
+        display: none;
+    }
+
+    #performance .perform__state h2 {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+
+    #performance .perform__state h4 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-right: 0;
+    }
+
+    #performance .no_line {
+        border: none;
+    }
+
+    /*Performance End Here...*/
+
+    /*Choose Start Here...*/
+    #chooseUs {
+        padding: 40px 0;
+    }
+
+    #chooseUs .shapeChoose {
+        display: none;
+    }
+
+    #chooseUs .choose_left ul li {
+        gap: 15px;
+        padding: 0 ;
+        margin-bottom: 10px;
+    }
+
+    #chooseUs .choose_left ul li:hover {
+        padding: 10px 0px;
+    }
+
+    #chooseUs .choose_left ul li img{
+        width: 30px;
+    }
+
+    #chooseUs .choose_left ul li p {
+        width: auto;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #chooseUs .choose_right {
+        padding-left: 0px;
+        padding: 0 20px;
+    }
+
+    #chooseUs .choose_right h2 {
+        font-size: 36px;
+    }
+
+    #chooseUs .choose_right p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+
+    #chooseUs .choose_right button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    /*Choose End Here...*/
+
+    /*WhatDo Start Here...*/
+
+    #whatDo {
+        padding: 30px 30px;
+    }
+
+    #whatDo .whatDo_title{
+        padding: 10px;
+    }
+
+    #whatDo .whatDo_title h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    #whatDo .whatDo_title p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+
+    #whatDo .whatDo_title button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    #whatDo .whatDo_card {
+        padding: 30px 10px;
+        margin-bottom: 30px;
+    }
+
+    #whatDo .whatDo_card img{
+        width: 40px;
+    }
+
+    #whatDo .whatDo_card h3 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    #whatDo .whatDo_card p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 10px;
+    }
+
+    #whatDo .whatDo_card a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #whatDo .whatDo_card a::after {
+        width: 24px;
+        height: 28px;;
+        right: -6px;
+    }
+    /*WhatDo End Here...*/
+
+    /*Impact Start Here...*/
+    #impact {
+        background: #FFFFFF;
+        padding: 20px 0;
+        position: relative;
+    }
+
+    #impact .impact_title {
+        margin-bottom: 40px;
+    }
+
+    #impact .impact_title h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    #impact .impact_title p {
+        width: auto;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: justify;
+        padding: 0 20px;
+    }
+
+    #impact .left_item {
+        gap: 16px;
+    }
+
+    #impact .left_item img{
+        width: 50px;
+    }
+
+    #impact .left_item .item_text h3 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+
+    #impact .left_item .item_text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #impact .left_item:first-child {
+        margin-bottom: 20px;
+    }
+
+    #impact .impect_right img{
+        width: 100%;
+    }
+
+    #impact .impactShape {
+        display: none;
+    }
+
+    /*Impact End Here...*/
+
+    /*Plan Start Here...*/
+    #plan {
+        padding: 21px 0px;
+    }
+
+    #plan .plan_title {
+        margin-bottom: 30px;
+    }
+
+    #plan .plan_title h2 {
+        font-size: 36px;
+    }
+
+    #plan .plan_card {
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+
+    #plan .plan_card h4 {
+        font-size: 24px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    #plan .plan_card img{
+        width: 100%;
+    }
+
+    #plan .plan_card h3 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #plan .plan_card p {
+        font-size: 14px;
+    }
+    /*Plan End Here...*/
+
+    /*About Start Here...*/
+    #about {
+        padding: 20px 30px;
+    }
+
+    #about .about_title h2 {
+        font-size: 36px;
+    }
+
+    #about .slide_part {
+        padding: 40px 20px 20px;
+        margin-top: 40px;
+    }
+
+    #about .slide_part .slide_text p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 20px auto 0;
+    }
+
+    #about .slide_part .slide_text h4 {
+        font-size: 22px;
+        line-height: 20px;
+        margin-top: 16px;
+    }
+
+    #about .slide_part .slide_image {
+        top: -40px;
+    }
+
+    #about .slide_part .slideImage{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    #about #carouselExample .button .prev_btn {
+        width: 32px;
+        height: 32px;
+        top: 60%;
+        transform: translateY(-50%);
+        left: -16px;
+    }
+
+    #about #carouselExample .button .prev_btn span {
+        font-size: 22px;
+        margin-left: 26px;
+    }
+
+    #about #carouselExample .button .next_btn {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        top: 60%;
+        transform: translateY(-50%);
+        right: -16px;
+    }
+
+    #about #carouselExample .button .next_btn span {
+        font-size: 22px;
+        margin-right: 26px;
+    }
+    /*About End Here...*/
+
+    /*Like Start Here...*/
+    #like {
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    #like .like_title h2 {
+        font-size: 36px;
+        line-height: 20px;
+    }
+
+    #like .like_imageCard {
+        width: 60%;
+        height: 200px;
+        margin: 30px auto 0 auto;
+    }
+
+    #like .like_text {
+        margin: 20px auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #like .like_text .text_small h4 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-right: 30px;
+    }
+
+    #like .like_text .text_small h5 span {
+        margin-right: 20px;
+    }
+
+    #like .like_text .text_small h5 {
+        font-size: 16px;
+        line-height: 25px;
+        margin-right: 30px;
+    }
+
+    #like .like_text .text_small h6 {
+        font-size: 16px;
+    }
+
+    #like .like_text .text_small h6 span {
+        margin-right: 20px;
+    }
+
+    #like .like_text h3 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    #like .like_text a {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    #like .like_text a::after {
+        width: 24px;
+        height: 28px;
+        right: -8px;
+    }
+
+    #like .likeShape {
+        display: none;
+    }
+    /*Like End Here...*/
+
+    /*Footer Start Here...*/
+    footer {
+        padding: 20px 20px;
+    }
+
+    footer .footer_top {
+        margin-bottom: 10px;
+    }
+
+    footer .footer_top .footer_logo img{
+        width: 80px;
+    }
+
+    footer .footer_top .footer_title p {
+        font-size: 14px;
+        line-height: 150%;
+        margin-top: 15px;
+    }
+
+    footer .footer_top .footer_item h3 {
+        font-size: 18px;
+        line-height: 80%;
+        margin-top: 20px;
+    }
+
+    footer .footer_top .footer_item ul {
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    footer .footer_top .footer_item ul li a {
+        font-size: 14px;
+    }
+
+    footer .footer_bottom p {
+        font-size: 14px;
+    }
+
+    footer .footer_bottom p span {
+        margin-right: 20px;
+    }
+    /*Footer End Here...*/
+
+}
+
+
+
+@media (min-width: 768px) and (max-width:991px) {
+    
+    /*Navbar Start Here...*/
+    .navbar-brand img{
+        width: 80px;
+    }
+
+    .menu_bar {
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+    }
+
+    header nav .nav_list ul {
+        gap: 20px;
+    }
+
+    header nav .nav__right{
+        text-align: center;
+    }
+
+    header nav .nav__right button {
+        font-size: 16px;
+        padding: 10px 16px;
+    }
+
+    /*Navbar End Here...*/
+
+    /*Banner Start Here...*/
+    #banner {
+        padding: 140px 0 40px 0;
+    }
+
+    #banner .banner__item h1 {
+        font-size: 46px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+
+    #banner .banner__item p {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    #banner .banner__item .banner__btn {
+        margin-top: 30px;
+    }
+
+    #banner .banner__item .banner__btn button {
+        font-size: 16px;
+        padding: 10px 16px;
+    }
+
+    #banner .banner__item .banner__btn button:last-child {
+        margin-left: 5px;
+    }
+
+    #banner .shape_one {
+        display: none;
+    }
+
+    #banner .shape_two {
+        display: none;
+    }
+    /*Banner End Here...*/
+
+    /*Performance Start Here...*/
+    #performance {
+        padding: 40px 0;
+    }
+
+    #performance .bgShape {
+        display: none;
+    }
+
+    #performance .perform__state h2 {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+
+    #performance .perform__state h4 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-right: 0;
+    }
+
+
+    /*Performance End Here...*/
+
+    /*Choose Start Here...*/
+    #chooseUs {
+        padding: 40px 0;
+    }
+
+    #chooseUs .shapeChoose {
+        display: none;
+    }
+
+    #chooseUs .choose_left ul li {
+        gap: 15px;
+        padding: 0 ;
+        margin-bottom: 10px;
+    }
+
+    #chooseUs .choose_left ul li:hover {
+        padding: 10px 0px;
+    }
+
+    #chooseUs .choose_left ul li img{
+        width: 30px;
+    }
+
+    #chooseUs .choose_left ul li p {
+        width: auto;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #chooseUs .choose_right {
+        padding: 0 20px;
+    }
+
+    #chooseUs .choose_right h2 {
+        font-size: 42px;
+    }
+
+    #chooseUs .choose_right p {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
+    #chooseUs .choose_right button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    /*Choose End Here...*/
+
+    /*WhatDo Start Here...*/
+
+    #whatDo {
+        padding: 30px 30px;
+    }
+
+    #whatDo .whatDo_title{
+        padding: 10px;
+    }
+
+    #whatDo .whatDo_title h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    #whatDo .whatDo_title p {
+        font-size: 14px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+
+    #whatDo .whatDo_title button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    #whatDo .whatDo_card {
+        padding: 30px 10px;
+        margin-bottom: 30px;
+    }
+
+    #whatDo .whatDo_card img{
+        width: 40px;
+    }
+
+    #whatDo .whatDo_card h3 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    #whatDo .whatDo_card p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 10px;
+    }
+
+    #whatDo .whatDo_card a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    #whatDo .whatDo_card a::after {
+        width: 24px;
+        height: 28px;;
+        right: -6px;
+    }
+    /*WhatDo End Here...*/
+
+    /*Impact Start Here...*/
+    #impact {
+        background: #FFFFFF;
+        padding: 20px 0;
+        position: relative;
+    }
+
+    #impact .impact_title {
+        margin-bottom: 40px;
+    }
+
+    #impact .impact_title h2 {
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+
+    #impact .impact_title p {
+        font-size: 16px;
+        line-height: 30px;
+        padding: 0 ;
+    }
+
+    #impact .impact_left{
+        margin-top: 50px;
+    }
+
+    #impact .left_item {
+        gap: 16px;
+    }
+
+    #impact .left_item img{
+        width: 50px;
+    }
+
+    #impact .left_item .item_text h3 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+
+    #impact .left_item .item_text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #impact .left_item:first-child {
+        margin-bottom: 20px;
+    }
+
+    #impact .impect_right img{
+        width: 100%;
+    }
+
+    #impact .impactShape {
+        display: none;
+    }
+
+    /*Impact End Here...*/
+
+    /*Plan Start Here...*/
+    #plan {
+        padding: 21px 0px;
+    }
+
+    #plan .plan_title {
+        margin-bottom: 30px;
+    }
+
+    #plan .plan_title h2 {
+        font-size: 36px;
+    }
+
+    #plan .plan_card {
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+
+    #plan .plan_card h4 {
+        font-size: 24px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    #plan .plan_card img{
+        width: 100%;
+    }
+
+    #plan .plan_card h3 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #plan .plan_card p {
+        font-size: 14px;
+    }
+    /*Plan End Here...*/
+
+    /*About Start Here...*/
+    #about {
+        padding: 20px 30px;
+    }
+
+    #about .about_title h2 {
+        font-size: 36px;
+    }
+
+    #about .slide_part {
+        padding: 40px 20px 20px;
+        margin-top: 40px;
+    }
+
+    #about .slide_part .slide_text p {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 20px auto 0;
+    }
+
+    #about .slide_part .slide_text h4 {
+        font-size: 22px;
+        line-height: 20px;
+        margin-top: 16px;
+    }
+
+    #about .slide_part .slide_image {
+        top: -40px;
+    }
+
+    #about .slide_part .slideImage{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    #about #carouselExample .button .prev_btn {
+        width: 32px;
+        height: 32px;
+        top: 60%;
+        transform: translateY(-50%);
+        left: -16px;
+    }
+
+    #about #carouselExample .button .prev_btn span {
+        font-size: 22px;
+        margin-left: 26px;
+    }
+
+    #about #carouselExample .button .next_btn {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        top: 60%;
+        transform: translateY(-50%);
+        right: -16px;
+    }
+
+    #about #carouselExample .button .next_btn span {
+        font-size: 22px;
+        margin-right: 26px;
+    }
+    /*About End Here...*/
+
+    /*Like Start Here...*/
+    #like {
+        padding: 20px 0;
+    }
+
+    #like .like_title h2 {
+        font-size: 42px;
+        line-height: 40px;
+    }
+
+    #like .like_imageCard {
+        height: 200px;
+        margin: 30px auto 0 auto;
+    }
+
+    #like .like_text {
+        margin: 30px 0 0;
+    }
+
+    #like .like_text .text_small h4 {
+        font-size: 16px;
+        line-height: 22px;
+        margin-right: 30px;
+    }
+
+    #like .like_text .text_small h5 span {
+        margin-right: 20px;
+    }
+
+    #like .like_text .text_small h5 {
+        font-size: 16px;
+        line-height: 25px;
+        margin-right: 30px;
+    }
+
+    #like .like_text .text_small h6 {
+        font-size: 16px;
+    }
+
+    #like .like_text .text_small h6 span {
+        margin-right: 20px;
+    }
+
+    #like .like_text h3 {
+        font-size: 30px;
+        line-height: 30px;
+        margin: 20px 0;
+    }
+
+    #like .like_text a {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    #like .like_text a::after {
+        width: 24px;
+        height: 28px;
+        right: -8px;
+    }
+
+    #like .likeShape {
+        display: none;
+    }
+    /*Like End Here...*/
+
+    /*Footer Start Here...*/
+    footer {
+        padding: 20px 20px;
+    }
+
+    footer .footer_top {
+        margin-bottom: 10px;
+    }
+
+    footer .footer_top .footer_logo img{
+        width: 80px;
+    }
+
+    footer .footer_top .footer_title p {
+        font-size: 14px;
+        line-height: 150%;
+        margin-top: 15px;
+    }
+
+    footer .footer_top .footer_item h3 {
+        font-size: 18px;
+        line-height: 80%;
+        margin-top: 20px;
+    }
+
+    footer .footer_top .footer_item ul {
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    footer .footer_top .footer_item ul li a {
+        font-size: 14px;
+    }
+
+    footer .footer_bottom p {
+        font-size: 14px;
+    }
+
+    footer .footer_bottom p span {
+        margin-right: 20px;
+    }
+    /*Footer End Here...*/
+
+}

@@ -85,6 +85,8 @@
     />
 
     <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="stylesheet" href="./css/responsive.css">
   </head>
 
   <body>
@@ -96,7 +98,7 @@
             ><img src="./images/logo.png" alt="logo"
           /></a>
           <button
-            class="navbar-toggler d-lg-none"
+            class="navbar-toggler d-lg-none menu_bar"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#collapsibleNavId"
@@ -104,7 +106,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span><i class="fa-solid fa-bars-staggered"></i></span>
           </button>
           <div class="collapse navbar-collapse nav_list" id="collapsibleNavId">
             <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
@@ -164,28 +166,28 @@
         <img class="bgShape" src="./images/shapePerform.png" alt="shape" />
         <div class="container">
           <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-6 col-md-3">
               <div class="perform__state">
                 <h2>53k</h2>
                 <h4>Happy client</h4>
               </div>
             </div>
 
-            <div class="col-lg-3">
-              <div class="perform__state">
+            <div class="col-lg-3 col-6 col-md-3" >
+              <div class="perform__state no_line">
                 <h2>10k</h2>
                 <h4>Projects Done</h4>
               </div>
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-6 col-md-3">
               <div class="perform__state">
                 <h2>120</h2>
                 <h4>Gets Award</h4>
               </div>
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-6 col-md-3">
               <div class="perform__state" id="no_line">
                 <h2>16</h2>
                 <h4>Operated Years</h4>
@@ -201,7 +203,7 @@
         <img class="shapeChoose" src="./images/shapeChoose.png" alt="shape" />
         <div class="container">
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
               <div class="choose_left">
                 <ul>
                   <li>
@@ -242,7 +244,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
               <div class="choose_right">
                 <h2>Why Choose Us</h2>
                 <p>
@@ -262,7 +264,7 @@
       <section id="whatDo">
         <div class="container">
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
               <div class="whatDo_title">
                 <h2>What We Do</h2>
                 <p>
@@ -273,7 +275,7 @@
                 <button>Contact Us</button>
               </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
               <div class="whatDo_card">
                 <div class="card_image">
                   <img src="./images/webDesign.png" alt="cardImage" />
@@ -287,7 +289,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
               <div class="whatDo_card">
                 <div class="card_image">
                   <img src="./images/softwareDev.png" alt="cardImage" />
@@ -301,7 +303,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
               <div class="whatDo_card">
                 <div class="card_image">
                   <img src="./images/contentWriting.png" alt="cardImage" />
@@ -315,7 +317,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
               <div class="whatDo_card">
                 <div class="card_image">
                   <img src="./images/digitalMarketing.png" alt="cardImage" />
@@ -329,7 +331,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-6">
               <div class="whatDo_card">
                 <div class="card_image">
                   <img src="./images/support.png" alt="cardImage" />
@@ -360,7 +362,7 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
               <div class="impact_left">
                 <div class="left_item d-flex">
                   <div class="left_icon">
@@ -390,7 +392,7 @@
               </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-6">
               <div class="impect_right">
                 <img src="./images/impactImage.png" alt="impactImage" />
               </div>
@@ -413,7 +415,7 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-sm-4">
               <div class="plan_card">
                 <h4>Basic</h4>
                 <img src="./images/planCardOne.png" alt="planCardOne" />
@@ -425,7 +427,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-sm-4">
               <div class="plan_card" id="active">
                 <h4>Professional</h4>
                 <img src="./images/planCardTwo.png" alt="planCardTwo" />
@@ -437,7 +439,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-sm-4">
               <div class="plan_card">
                 <h4>Exclusive</h4>
                 <img src="./images/planCardThree.png" alt="planCardThree" />
@@ -581,11 +583,11 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4">
               <div class="like_imageCard"></div>
             </div>
 
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-md-8">
               <div class="like_text">
                 <div class="text_small d-flex">
                   <h4>News</h4>
@@ -602,11 +604,11 @@
               </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4">
               <div class="like_imageCard"></div>
             </div>
 
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-md-8">
               <div class="like_text">
                 <div class="text_small d-flex">
                   <h4>News</h4>
@@ -623,11 +625,11 @@
               </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4">
               <div class="like_imageCard"></div>
             </div>
 
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-md-8">
               <div class="like_text">
                 <div class="text_small d-flex">
                   <h4>News</h4>
@@ -669,7 +671,7 @@
               </div>
             </div>
 
-            <div class="col-lg-2">
+            <div class="col-lg-2 col-3">
               <div class="footer_item">
 
                 <h3>Features</h3>
@@ -686,7 +688,7 @@
 
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-5">
               <div class="footer_item">
 
                 <h3>Products</h3>
@@ -701,7 +703,7 @@
 
             </div>
 
-            <div class="col-lg-2">
+            <div class="col-lg-2 col-4">
               <div class="footer_item">
                 
                 <h3>Support</h3>
